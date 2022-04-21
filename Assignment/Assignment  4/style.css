@@ -1,0 +1,38 @@
+.highlight{
+    background-color: greenyellow;
+}
+ 
+ 
+ 
+ 
+  .lunch{
+      width: 50px;
+  }
+
+
+    .empty{
+        width: 10px;
+    }
+
+  h4 , p{
+      margin:0;
+     
+  }
+  .faculty{
+    padding-top: 5%;
+
+  }
+
+ 
+
+table{
+    margin-left: 2%;
+    margin-right: 1%;
+    border-collapse: collapse;
+    width: 84%;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
