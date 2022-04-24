@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+
+}
+
+footer, header{
+text-align: center;
+}
+
+.fa{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+ ul{
+     list-style-type: square ;
+ }
+ 
+ span{
+     font-size: larger;
+ }
+ 
+ img,video{
+     width: 25%;
+ }
+
+ .align{
+     text-align: center;
+ }
+
+ .lists{
+     margin-left: 40%;
+ }
