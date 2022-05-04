@@ -1,0 +1,74 @@
+h1{
+    margin-left: 30%;
+}
+ 
+ .container{
+     text-align: center;
+	 margin-top: 50px;
+ }
+ .dotted{	
+	border: 4px dotted black;
+	padding: 20px 70px;
+	color: black;
+}
+.dashed{
+	border: 4px dashed black;
+	padding: 20px 66px;
+	color: black;
+	margin-left: 10px;
+}
+.solid{
+	border: 4px solid black;
+	padding: 20px 75px;
+	color: black;
+
+}
+.double{	
+	border: 4px double black;
+	padding: 20px 68px;
+	color: black;
+	
+	margin-left: 10px;
+}
+.groove{	
+	border: 4px groove grey;
+	padding: 20px 68px;
+	color: black;
+	
+}
+.ridge{	
+	border: 4px ridge grey;
+	padding: 20px 73px;
+	color: black;
+	
+	margin-left:12px;
+}
+.inset{	
+	border: 4px inset grey;
+	padding: 20px 75px;
+	color: black;
+	
+}
+.outset{	
+	border: 4px outset grey;
+	padding: 20px 70px;
+	color: black;
+	margin-left: 14px;
+}
+.none{	
+   color: black;
+   margin-left: 530px;	
+}
+
+.hidden{
+color: black;
+margin-left: 170px;
+}
+div{
+	margin:60px;
+	
+}
+a{
+	margin-right: 50px;
+    text-decoration: none;
+}

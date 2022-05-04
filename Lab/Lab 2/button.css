@@ -14,6 +14,7 @@ span{
 .container{
     margin-left: 190px;
     margin-bottom: 30px;
+    
 
 }
 
@@ -132,9 +133,10 @@ a{
     }
     
     .btn-secondary1:active{
-        background-color: #E5EBED;
-    color: #72949E;
+     color: #72949E;
+     background-color: #E5EBED;
     opacity: 0.8;
+    border: 0px solid;
     }
     
     .btn-destructive1:active{
