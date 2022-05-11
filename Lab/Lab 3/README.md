@@ -1,3 +1,4 @@
    Preview
   
-![preview](https://user-images.githubusercontent.com/75738200/167811445-3256d77a-c094-4b57-aaeb-57e2f1af6d8d.png)
+
+![screencapture-file-C-Users-ACER-Desktop-wt-lab-assignment-Lab-Lab-3-index-html-2022-05-11-14_44_56](https://user-images.githubusercontent.com/75738200/167811931-263de14e-d326-44ff-a588-cfa413dab8a7.png)
