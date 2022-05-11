@@ -166,4 +166,29 @@ a{
     margin-right: 110px;
 }
 
+.last{
+	opacity: 1;
+}
 
+.btnlast{
+	margin-top: 30px;
+    margin-left: 14px;
+    padding:13px 35px;
+    border-radius: 5px; 
+    background-color: #Fff;
+    border: 2px #26BE96 solid;
+    color: #26BE96;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.btnlast:hover{
+	background-color: #26BE96;
+	color: #F3FBF9;
+	border:2px solid #26BE96;
+}
+
+footer{
+	margin-top: 87px;
+	text-align: right;
+	margin-right: 147px;
