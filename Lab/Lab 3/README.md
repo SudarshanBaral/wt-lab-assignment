@@ -6,11 +6,16 @@
 Website demo - https://sudarshanbaral.com.np/Lab%203/index.html
 
 Colors in CSS can be specified by various ways like-
-1)By color names
+1)By color names  
+
 2)As RGB values
+
 3)As hexadecimal values
+
 4)As HSL values (CSS3)
+
 5)As HWB values (CSS4)
+
 6)With the currentcolor keyword
 
 HSL values - HSL colors are expressed through the functional hsl() and hsla() notations where h,s,l,a represent hue,saturation,lightness and alpha model respectively. The HSL color model defines a given color in the sRGB color space according to its hue, saturation, and lightness components. An optional alpha component represents the color's transparency.For example: hsl(240 100% 50%). 
