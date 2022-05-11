@@ -6,6 +6,7 @@
 Website demo - https://sudarshanbaral.com.np/Lab%203/index.html
 
 Colors in CSS can be specified by various ways like-
+
 1)By color names  
 
 2)As RGB values
