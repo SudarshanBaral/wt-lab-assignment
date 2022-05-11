@@ -22,5 +22,4 @@ Colors in CSS can be specified by various ways like-
 6)With the currentcolor keyword
 
 HSL values - HSL colors are expressed through the functional hsl() and hsla() notations where h,s,l,a represent hue,saturation,lightness and alpha model respectively. The HSL color model defines a given color in the sRGB color space according to its hue, saturation, and lightness components. An optional alpha component represents the color's transparency.For example: hsl(240 100% 50%). 
-           
-           S (saturation) and L (lightness) are percentages. 100% saturation is completely saturated, while 0% is completely unsaturated (gray). 100% lightness is white,     0% lightness is black, and 50% lightness is "normal.A (alpha) can be a <number> between 0 and 1, or a <percentage>, where the number 1 corresponds to 100% (full         opacity).
+                  S (saturation) and L (lightness) are percentages. 100% saturation is completely saturated, while 0% is completely unsaturated (gray). 100% lightness is white, 0% lightness is black, and 50% lightness is "normal.A (alpha) can be a <number> between 0 and 1, or a <percentage>, where the number 1 corresponds to 100% (full  opacity).
