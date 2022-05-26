@@ -125,7 +125,7 @@ aside {
 
 aside a {
   display: block;
-  float: left;
+  float: right;
   width: 50%;
 }
 
