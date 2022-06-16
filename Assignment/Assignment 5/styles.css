@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    right: 5%;
+}
+
+
+.inline-block {
+    display: inline-block;
+}
+
+.page {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    display: inline-block;
+    
+}
+
+.container {
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 30px;
+    height: 44px;
+}
+
+nav {
+    box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
+    background-color: aliceblue;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 600;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.container li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding: 21px 3px;
+  display: flex;
+}
+
+
+.menu {
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 400;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+
+
+
+.container li:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .right {
+        display: none;
+    }
+} */
+
+/* About */
+
+h1{
+    margin-bottom: 10px;
+}
+
+.about {
+    margin: 50px 0px 20px 100px;
+    margin-bottom: 40px;
+
+}
+
+.lorem {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 25%;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.name {
+    color: blueviolet;
+    margin-left: 7%;
+}
+
+.about a {
+
+    text-decoration: none;
+    padding: 14px 30px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-left: 150px;
+
+
+}
+
+.get-in-touch:hover{
+border-bottom: 3px solid  black;
+border-right: 3px solid  black;
+}
+
+
+/* 
+Assignments and lab */
+.assignment-lab {
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 20px;
+   height: 290px;
+    
+}
+
+.assignment {
+   
+    background-color: aliceblue;
+    position: relative;
+    float: left;
+  
+    left: 10%;
+   
+  
+    
+}
+
+.lab {
+    
+    background-color: aliceblue;
+    float: right;
+    margin-right: 15%;
+    
+    
+}
+
+
+
+
+.text {
+    text-decoration: none;
+
+  
+}
+
+
+
+h4 {
+    
+   text-align: center;
+    margin-top: 10px;
+    padding: 12px 120px;
+    background-color: rgb(192, 212, 253);
+    font-size: 1.2rem;
+    color: blueviolet;
+    border-radius: 10px;
+
+}
+
+h4:hover{
+box-shadow: 1px 1px 1px 1px;
+    
+}
+
+.last{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+   
+    text-align: center;
+  
+
+}
+
+
+.fonts {
+
+    font-size: 1.5rem;
+
+    margin-right: 30px;
+
+    
+    color: black;
+    text-decoration: none;
+   
+   
+}
+
+.fonts:hover{
+    font-size: 2rem;
+}
+
+.copyright {
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+
+i{
+    margin-top: 10px;
+}
+
+
+/* aside */
+.aside {
+    position: fixed;
+    right: 3%;
+    margin-top: 50px;
+    width: 100px;
+    z-index: 1;
+}
+
+.aside a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.aside li {
+
+    list-style: none;
+    display: inline-block;
+
+    padding: 21px 2px;
+    margin-right: -12px;
+    font-size: larger;
+
+
+
+}
+
+.aside li:hover{
+    font-size: 1.3rem;
+    
+}
