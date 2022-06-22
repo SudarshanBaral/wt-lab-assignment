@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #resize {
+            position: relative;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(231, 231, 237);
+            border: 1px solid rgb(231, 231, 237);
+            color: white;
+        }
+
+        #resizable {
+            /* background-color: white; */
+            width: 100%;
+            height: 100%;
+            /* cursor: se-resize;  */
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+    <div id="resize">
+
+        <div id="resizable">
+        </div>
+        <script>var resizeHandle = document.getElementById('resizable');
+            var box = document.getElementById('resize');
+            resizeHandle.addEventListener('mousedown', initialiseResize, false);
+
+            function initialiseResize(e) {
+                window.addEventListener('mousemove', startResizing, false);
+                window.addEventListener('mouseup', stopResizing, false);
+            }
+
+            function stopResizing(e) {
+                window.removeEventListener('mousemove', startResizing, false);
+                window.removeEventListener('mouseup', stopResizing, false);
+            }
+
+            function startResizing(e) {
+                box.style.width = (e.clientX) + 'px';
+                box.style.height = (e.clientY) + 'px';
+            }
+
+            function startResizing(e) {
+                box.style.width = (e.clientX - box.offsetLeft) + 'px';
+                box.style.height = (e.clientY - box.offsetTop) + 'px';
+            }</script>
+
+</body>
+
+</html>
