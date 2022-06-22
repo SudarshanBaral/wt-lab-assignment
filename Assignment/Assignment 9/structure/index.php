@@ -12,7 +12,7 @@ $gces_Staffs =
             ],
             [
                 "name" => "github", 
-                "address" => "Pokhara,Davisfall",
+                "address" => "birauta",
                 "phoneno" => ["98131313"],
                 "subject" => ["C++", "WT", "MFCs"]
             ]
@@ -22,11 +22,11 @@ $gces_Staffs =
             [
                 "name" => "uncle",
                 "address" => "chhorepatan",
-                "phoneno" => ["98235345"]
+                "phoneno" => ["982217345"]
             ],
             [
-                "name" => "abc",
-                "address" => "PowerHouse",
+                "name" => "lucky",
+                "address" => "newroad",
                 "phoneno" => ["98604509"]
             ]
         ]
